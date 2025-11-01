@@ -15,6 +15,6 @@ export class AppController {
   }
   @Get('data2')
   getData2(): string {
-    return this.appService.getData();
+    return this.appService.getData2();
   }
 }
