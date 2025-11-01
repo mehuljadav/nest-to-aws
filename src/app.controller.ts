@@ -13,4 +13,8 @@ export class AppController {
   getData(): string {
     return this.appService.getData();
   }
+  @Get('data2')
+  getData2(): string {
+    return this.appService.getData();
+  }
 }

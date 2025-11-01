@@ -8,4 +8,7 @@ export class AppService {
   getData(): string {
     return 'Hello World! How are you?';
   }
+  getData2(): string {
+    return 'Hello World! How are you? ok?';
+  }
 }
